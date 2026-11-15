@@ -3,8 +3,6 @@
 Name: Neeraj Kumar  
 Seat no: B23110106054
 
-Measured on: Linux sandbox, 2 cores, 8 GB RAM, OpenJDK 21. Numbers will differ on other computers (see the note at the bottom).
-
 ---
 
 ## Task 1: Start and join
