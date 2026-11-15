@@ -1,0 +1,3 @@
+1. fork() returns 0 in the child process (the child's PID in the parent, -1 on failure).
+2. WIFSIGNALED(status) returns true if the child process was terminated by a signal.
+3. man 1 kill documents the shell command kill used in the terminal; man 2 kill documents the kill() system call used inside C programs.

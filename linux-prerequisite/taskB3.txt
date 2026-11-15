@@ -1,0 +1,2 @@
+Terminal 1 (cat, the reader) blocked, waiting until terminal 2 (echo) opened the FIFO for writing; then it received the data and exited.
+When echo ran first with &, it blocked in open() (the job stayed Running) until a reader (cat) attached; then the data passed and echo finished.

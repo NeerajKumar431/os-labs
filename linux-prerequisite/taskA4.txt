@@ -1,0 +1,11 @@
+4001
+  PID TTY          TIME CMD
+ 4001 pts/1    00:00:00 bash
+PPid:	3993
+  PID TTY          TIME CMD
+ 3993 ?        00:00:14 gnome-terminal
+State:	S (sleeping)
+Pid:	4001
+PPid:	3993
+VmSize:	    7296 kB
+Threads:	1

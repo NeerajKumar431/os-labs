@@ -1,0 +1,26 @@
+total 200
+-r-------- 1 seed    seed    67108904 Aug 19 12:18 pulse-shm-1500272823
+-r-------- 1 seed    seed    67108904 Aug 19 11:47 pulse-shm-1795247281
+-r-------- 1 lightdm lightdm 67108904 Aug 19 11:08 pulse-shm-291229257
+-r-------- 1 lightdm lightdm 67108904 Aug 19 11:08 pulse-shm-3598563083
+-r-------- 1 seed    seed    67108904 Aug 19 11:08 pulse-shm-517760752
+-r-------- 1 seed    seed    67108904 Aug 19 11:08 pulse-shm-917294909
+--- after creating prereq_test ---
+total 204
+-rw-rw-r-- 1 seed    seed          25 Nov 15 06:45 prereq_test
+-r-------- 1 seed    seed    67108904 Nov 15 06:46 pulse-shm-1500272823
+-r-------- 1 seed    seed    67108904 Aug 19 11:47 pulse-shm-1795247281
+-r-------- 1 lightdm lightdm 67108904 Aug 19 11:08 pulse-shm-291229257
+-r-------- 1 lightdm lightdm 67108904 Aug 19 11:08 pulse-shm-3598563083
+-r-------- 1 seed    seed    67108904 Aug 19 11:08 pulse-shm-517760752
+-r-------- 1 seed    seed    67108904 Aug 19 11:08 pulse-shm-917294909
+not really shared memory
+--- after rm ---
+total 200
+-r-------- 1 seed    seed    67108904 Nov 15 06:46 pulse-shm-1500272823
+-r-------- 1 seed    seed    67108904 Aug 19 11:47 pulse-shm-1795247281
+-r-------- 1 lightdm lightdm 67108904 Aug 19 11:08 pulse-shm-291229257
+-r-------- 1 lightdm lightdm 67108904 Aug 19 11:08 pulse-shm-3598563083
+-r-------- 1 seed    seed    67108904 Aug 19 11:08 pulse-shm-517760752
+-r-------- 1 seed    seed    67108904 Aug 19 11:08 pulse-shm-917294909
+A leftover file here after part 5 means the program exited or crashed without cleaning up; shm_unlink() should have removed it.

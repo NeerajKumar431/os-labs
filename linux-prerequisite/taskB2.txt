@@ -1,0 +1,4 @@
+seed      4001  0.0  0.1   7296  3756 pts/1    Ss   03:37   0:01 bash
+seed      4961  0.0  0.0   4384   832 pts/1    S+   06:51   0:00 grep --color=auto 4001
+prw-rw-r-- 1 seed seed 0 Nov 15 06:51 /tmp/prereq_fifo
+The ordinary pipe lived only for that one command line between related processes; a named pipe has a name in the filesystem, so unrelated processes in different terminals can use it and it persists until removed.
